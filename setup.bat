@@ -2,7 +2,7 @@
 cls
 call npm init -y
 cls
-call npm install express knex morgan cors pg bcrypt jsonwebtoken
+call npm install express knex morgan cors pg bcrypt jsonwebtoken express-validator dotenv
 mkdir api
 mkdir api\models
 mkdir api\controller && cd api && cd controller && type nul > UserController.js
