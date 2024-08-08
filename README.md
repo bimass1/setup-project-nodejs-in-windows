@@ -49,3 +49,5 @@ The index.js file is the main entry point of the application. It sets up the Exp
 - jsonwebtoken
 - cors
 - bcrypt
+- express-validator
+- dotenv
