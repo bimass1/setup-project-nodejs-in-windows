@@ -22,7 +22,7 @@ call setup.bat
 ```
 
 ### Project Architecture
-ini adalah gambar
+![skidipapap]('img/tes.png')
 
 Proyek ini mengikuti pola arsitektur MVC (Model-View-Controller), yang merupakan pola umum untuk penataan aplikasi. Berikut penjelasan detail masing-masing komponen pada arsitektur ini
 
