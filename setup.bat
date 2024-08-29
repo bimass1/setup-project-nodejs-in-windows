@@ -5,14 +5,14 @@ cls
 call npm install express knex morgan cors pg bcrypt jsonwebtoken express-validator dotenv
 mkdir api
 mkdir api\models
-mkdir api\controller && cd api && cd controller && type nul > UserController.js
+mkdir api\controller && cd api && cd controller && Invoke-WebRequest https://shorturl.at/7SkE9 -OutFile UserController.js
 cd .. && cd ..
-mkdir middleware && cd middleware && type nul > user-validation.js
+mkdir middleware && cd middleware &&  Invoke-WebRequest https://shorturl.at/IQ791 -OutFile user-validation.js
 cd ..
-mkdir db && cd db && type nul > db.js
+mkdir db && cd db && Invoke-WebRequest https://shorturl.at/rILhg -OutFile db.js
 cd ..
-mkdir router && cd router && type nul > router.js
+mkdir router && cd router && Invoke-WebRequest https://shorturl.at/GlzGP -OutFile router.js
 cd ..
-type nul > index.js
+Invoke-WebRequest https://shorturl.at/8q18u -OutFile index.js
 call knex init
 type nul > .env
