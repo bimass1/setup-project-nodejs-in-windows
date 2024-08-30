@@ -5,7 +5,7 @@ Setting up a Node.js project on Windows involves a series of steps to initialize
 ## Steps to Setup the Project:
 ### 1. define your project folder
 ### 2. open your project folder
-### 3. clone the `setup.bat` script in your project root folder
+### 3. open powershell then clone the script in your project root folder
 ```bash
 git clone https://github.com/bimass1/setup-project-nodejs-in-windows
 ```
