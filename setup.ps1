@@ -5,7 +5,7 @@ Clear-Host
 npm init -y
 
 # Instalasi paket-paket yang diperlukan
-npm install express knex morgan cors pg bcrypt jsonwebtoken express-validator dotenv
+npm install express knex morgan cors pg bcrypt jsonwebtoken express-validator dotenv nodemon
 
 # Membuat direktori dan mengunduh file dengan Invoke-WebRequest
 New-Item -ItemType Directory -Path "api\models" -Force
