@@ -21,7 +21,7 @@ Invoke-WebRequest -Uri "https://rb.gy/ghiyyx" -OutFile "db\db.js"
 New-Item -ItemType Directory -Path "router" -Force
 Invoke-WebRequest -Uri "https://rb.gy/eaghe3" -OutFile "router\router.js"
 
-Invoke-WebRequest -Uri "https://rb.gy/m0cv0e" -OutFile "index.js"
+Invoke-WebRequest -Uri "https://bit.ly/3Tfc9Tn" -OutFile "index.js"
 
 # Inisialisasi Knex
 knex init
