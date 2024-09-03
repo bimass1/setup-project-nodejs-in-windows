@@ -51,3 +51,4 @@ The index.js file is the main entry point of the application. It sets up the Exp
 - bcrypt
 - express-validator
 - dotenv
+- nodemon
