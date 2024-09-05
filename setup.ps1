@@ -35,7 +35,9 @@ if ($pilih.ToUpper() -eq "Y"){
          npx tailwindcss -i ./css/input.css -o ./css/style.css -- watch
     }
 }
-cd .. && cd ..
+cd .. 
+cd ..
+del view.zip
 # Inisialisasi Knex
 knex init
 
