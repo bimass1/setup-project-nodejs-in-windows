@@ -33,6 +33,8 @@ if ($pilih.ToUpper() -eq "Y"){
     $ask = read-host "jalankan tailwindcss sekarang? [Y:N]"
     if ($ask.ToUpper() -eq "Y"){
          npx tailwindcss -i ./css/input.css -o ./css/style.css -- watch
+    }else{
+        cd ..
     }
 }else{
     cd ..
