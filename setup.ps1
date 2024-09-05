@@ -24,7 +24,7 @@ Invoke-WebRequest -Uri "https://rb.gy/eaghe3" -OutFile "router\router.js"
 Invoke-WebRequest -Uri "https://bit.ly/3Tfc9Tn" -OutFile "index.js"
 
 Invoke-WebRequest -Uri "https://shorturl.at/QmDBV" -OutFile "view.zip"
-unzip view.zip
+Expand-Archive -Path "view.zip" -DestinationPath "view" -Force
 cd view
 $pilih = Read-Host "Mau install tailwindcss?[Y::N]"
 if ($pilih.ToUpper() -eq "Y"){
@@ -33,12 +33,9 @@ if ($pilih.ToUpper() -eq "Y"){
     $ask = read-host "jalankan tailwindcss sekarang? [Y:N]"
     if ($ask.ToUpper() -eq "Y"){
          npx tailwindcss -i ./css/input.css -o ./css/style.css -- watch
-    }else{
-        cd ..
     }
-}else{
-    cd ..
 }
+cd ..
 # Inisialisasi Knex
 knex init
 
